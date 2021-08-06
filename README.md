@@ -48,3 +48,32 @@ Memory Slot espacio donde guardamos información en bits
 
 La información se guarda en la memoria la cual contiene memory slots en cada uno llega a guardar un byte, la información lo hace de una manera aleatoria por lo cual se identifica a través de un address
 
+## ✅ Arrays
+
+Array es una colección de información.
+
+Arrays estáticos son aquellos que se quedaran fijos debido a que definimos cuantos espacios tendremos, es decir que le diremos a la maquina cuantos slots deberá usar.
+
+Arrays dinámicos son aquellos que podemos mutar.
+
+* Los arrays son como una lista con indices numerales consecutivas.
+* Tambien son conocidas como listas.
+* Tenemos diferentes métodos construidos por el lenguaje.
+  * Push ⇒ Agregar un elemento al final del array
+  * Pop ⇒ Borra el último elemento
+  * Unshift ⇒ Agrega un elemento al inicio del array
+  * Shift ⇒ Borra el primer elemento
+  * Splice ⇒ Agrega un elemento en una parte del array
+
+* Si nosotros agregamos un elemento al inicio debe haber ciertas operaciones que deben suceder.
+* Existen dos formas de arrays
+  * Estáticos ⇒ Definimos cuantos slots exactamente vamos a usar
+  * Dinámicos ⇒ JS Maneja de forma por defecto
+
+* La computadora sabe de dónde a donde esta cada información o en este caso el numero exactamente
+* La computadora de inicio es darle una cantidad de slots considerable
+* Si es que pasara el límite buscara más espacio en memoria del que está pidiendo la lista
+  * Para eso copiara la información y la trasladara a donde encuentre conveniente
+  * Los espacios anteriores los libera
+
+Existen dos tipos de listas, los estáticos que estas cuentan con slots de memoria definidos por nosotros y los dinámicos, estos se usan por defecto JavaScript, requieren una considerable cantidad de memoria la cual puede crecer a medida que lo necesitemos
