@@ -169,3 +169,26 @@ Tenemos un nodo, Se compone de dos factores
 * Lo característico de esta lista es que sus valores están relacionados con su nodo actual y el siguiente
 
 Un singly linked list es aquella que en sus nodos están su valor actual y la relación con el siguiente, si deseamos acceder a un determinado valor debemos recorrer si o si todos los elementos anteriores para llegar al lugar deseado.
+
+## ↔️ Doubly Linked List
+
+una lista doblemente enlazada es una estructura de datos que consiste en un conjunto de nodos enlazados secuencialmente. Cada nodo contiene tres campos, dos para los llamados enlaces, que son referencias al nodo siguiente y al anterior en la secuencia de nodos, y otro más para el almacenamiento de la información
+
+* La singly solo tiene un solo canal
+* La doubly se caracteriza por tener dos direcciones
+
+* Tiene tres valores, los que ya conocemos
+  * Value
+  * Next
+
+* El que caracteriza es el valor previo
+  * Prev
+
+* Esto nos ayuda si es que deseamos buscar un valor en particular nos evita volver a recorrer la estructura
+  * Es decir que para buscar cosas es más rápido
+
+* La forma en la que se guarda en memoria los objetos es similar a singly pero con dos direcciones
+
+* De un slot a otro, pero ahora puedo volver mediante el pointer prev
+
+Las doubly linked list son aquellas que tienen dos canales de punteros el anterior [prev] y el proximo [next]
