@@ -205,3 +205,15 @@ Una pila (stack en inglés) es una lista ordenada o estructura de datos que perm
   * Peek ⇒ Tomar el último elemento de la línea
 
 Un stack es una pila que los últimos elementos en entrar son los primeros en salir
+
+## 🚶‍♂️ Queues
+
+Una cola o queue es una estructura de datos muy similar a una Pila. Cuando usamos una Pila, ésta opera con una modalidad LIFO (Last In First Out), mientras que con una Cola es FIFO (First In First Out), es decir, siempre el primer elemento que agreguemos, será el primero que saquemos de ella.
+
+Ejemplo: Un escenario común es cuando vamos al banco, Llegamos y lo primero que haces es tomar un turno, inmediatamente nos damos cuenta que ya había 10 personas primero que tú por lo que automáticamente deduces que ellos serán atendidos primero que tú. Si nos damos cuenta en este escenario el primer cliente que llego y solicito un turno sera el que sea atendido primero y tú que llegaste al último serás atendido hasta el final.
+
+Tenemos diferentes métodos para trabajar con el primer elemento, es decir el que entra y sale
+
+* Enqueue ⇒ Agregar un elemento al final de la línea
+* Dequeue ⇒ Remover el primer elemento de la línea
+* Peek ⇒ Tomar el primer elemento de la línea
