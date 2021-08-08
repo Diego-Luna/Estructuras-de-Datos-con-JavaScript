@@ -101,3 +101,34 @@ Los strings se guardan como un arreglo
 Teniendo acceso a cada letra de la cadena definida
 
 Los strings son inmutables es decir que una vez definidos no podemos cambiar “letra por letra” si no que tendremos que tomar todos los items y comenzar a realizar la operación deseada también significa mayor esfuerzo de computo
+
+
+## 🗂️ Hash Tables
+
+Las hash tables se parecen a los objetos porque podemos guardar valores por llave, valor. Pero su principal diferencia es que genera un hash para cada llave valor. El único problema es que se puede generar un mismo hash colisionando con el anterior
+
+
+
+hash function es poder asegurar generar un hash que se convierte en el address para acceder al valor
+
+* En JavaScript se pueden conocer como objetos o Maps [Aun les falta unos pasos para concretarlo]
+* En otros lenguajes como python son conocidos como Diccionarios [Python], Maps [Java, Go], Hashes [Ruby]
+
+### Hash Tables vs Objetos
+
+* Las hash tables son similares a los objetos porque tienen el concepto de guardar valores key, value
+* La diferencia es que tienen un paso extra que se convierte en caja negra la cual es una hash function
+* Funciona de una manera similar a los arreglos debido a que accedemos a través de un numero
+
+### Métodos
+
+* Insert ⇒ Insertar un elemento en la tabla
+* Search ⇒ Buscar un elemento por key
+* Delete ⇒ Borrar un elemento
+
+### Colisión de Hash Table
+
+* En ocasiones podemos pasar un key distintito puede generar el mismo hash
+* Colisionando con el anterior
+* Esto podrá depender de la cantidad de espacio disponible
+
