@@ -132,3 +132,12 @@ hash function es poder asegurar generar un hash que se convierte en el address p
 * Colisionando con el anterior
 * Esto podrá depender de la cantidad de espacio disponible
 
+## ¿Qué es un hash?
+Según la definición de Kaspersky:
+
+“Una función criptográfica hash- usualmente conocida como “hash”- es un algoritmo matemático que transforma cualquier bloque arbitrario de datos en una nueva serie de caracteres con una longitud fija. Independientemente de la longitud de los datos de entrada, el valor hash de salida tendrá siempre la misma longitud.”
+
+En pocas palabras, un hash es un string aleatorio que se genera a partir de un string que le pasamos nosotros, este string que se genera tendrá una longitud fija, no importa si el string que nosotros le pasamos es muy largo.
+
+El hash se suele usar mucho al momento de encriptar contraseñas, y la forma de calcularlos es mediante un algoritmo matemático 😉
+
