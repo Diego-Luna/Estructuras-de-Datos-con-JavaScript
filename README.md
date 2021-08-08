@@ -192,3 +192,16 @@ una lista doblemente enlazada es una estructura de datos que consiste en un conj
 * De un slot a otro, pero ahora puedo volver mediante el pointer prev
 
 Las doubly linked list son aquellas que tienen dos canales de punteros el anterior [prev] y el proximo [next]
+
+## 🧵 Stacks
+
+Una pila (stack en inglés) es una lista ordenada o estructura de datos que permite almacenar y recuperar datos, siendo el modo de acceso a sus elementos de tipo LIFO (del inglés Last In, First Out, «último en entrar, primero en salir»)
+
+* Un stack o pila mayormente tienen una estructura LIFO [Last In, First Out]
+* Los primeros datos en entrar son los primeros en salir
+* Tenemos diferentes métodos para esta estructura de datos
+  * Pop ⇒ Remover el último elemento
+  * Push ⇒ Agregar un elemento al final
+  * Peek ⇒ Tomar el último elemento de la línea
+
+Un stack es una pila que los últimos elementos en entrar son los primeros en salir
