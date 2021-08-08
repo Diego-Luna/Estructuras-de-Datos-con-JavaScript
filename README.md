@@ -77,3 +77,27 @@ Arrays dinámicos son aquellos que podemos mutar.
   * Los espacios anteriores los libera
 
 Existen dos tipos de listas, los estáticos que estas cuentan con slots de memoria definidos por nosotros y los dinámicos, estos se usan por defecto JavaScript, requieren una considerable cantidad de memoria la cual puede crecer a medida que lo necesitemos
+
+## 🗒️ Strings
+String inmutables se refiere a que una vez definido no lo podemos cambiar
+
+De por si no es una estructura de datos, pero la forma en la que se guarda en memoria es como una estructura de datos
+Tenemos un string en una variable
+
+```javascript
+const saludo = "Hola";
+```
+
+Cabe recalcar que en muchos lenguajes incluyendo JavaScript, los strings son inmutables
+* para generar un cambio en el string sera necesario:
+  * Tomar todos los datos de los memory slots
+  * Buscar nuevos memory slots
+  * Pegar en los memory slots necesarios con los nuevos elementos
+* Hacer todos estos pasos puede llegar a ser un problema generando un problema de computo
+
+Cuando generamos strings con JavaScript casi nunca tenemos modificarlos
+Los strings se guardan como un arreglo
+
+Teniendo acceso a cada letra de la cadena definida
+
+Los strings son inmutables es decir que una vez definidos no podemos cambiar “letra por letra” si no que tendremos que tomar todos los items y comenzar a realizar la operación deseada también significa mayor esfuerzo de computo
