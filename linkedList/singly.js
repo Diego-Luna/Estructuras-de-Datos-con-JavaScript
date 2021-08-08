@@ -67,6 +67,39 @@ class MySinglyLinkedList {
 
     return this;
   }
+
+  // incertamos un nuevo nodo, en cualcuier lugar
+  insert(index, value) {
+    // validamos si ponemos un index que no esiste
+    if (index >= this.length) {
+      //  lo ponemos el final de la lista
+      return this.append(value);
+    }
+
+    const newNode = new Node(value);
+    const firstPointer = this.getTheIndex(index - 1);
+    const holdingPointer = firstPointer.next;
+
+    firstPointer.next = newNode;
+    newNode.next = holdingPointer;
+
+    this.length++;
+
+    return this;
+  }
+
+  // nos va ayudar a buscar los nodos
+  getTheIndex(index) {
+    let counter = 0;
+    let currentNode = this.head;
+
+    while (counter !== index) {
+      currentNode = currentNode.next;
+      counter++;
+    }
+
+    return currentNode;
+  }
 }
 
 let mySinglyLinkedList = new MySinglyLinkedList(1);
