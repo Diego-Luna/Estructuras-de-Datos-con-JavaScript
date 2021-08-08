@@ -141,3 +141,31 @@ En pocas palabras, un hash es un string aleatorio que se genera a partir de un s
 
 El hash se suele usar mucho al momento de encriptar contraseñas, y la forma de calcularlos es mediante un algoritmo matemático 😉
 
+## 🦁 Linked List
+
+Linked List son simplemente un conjunto de nodos ordenados que contienen los valores que necesitemos (numbers, strings, boolean, etc). Cada uno tiene un valor y una referencia a un siguiente nodo.
+
+Esta es la anatomía de un linked list
+* Tenemos el nodo principal o cabeza, luego tenemos diferentes nodos y un nodo final o cola
+* Cada flecha es su conexión
+* Existen dos tipos de Linked List en este caso usaremos solo la Singly Linked List
+
+### Métodos
+
+* Prepend ⇒ Agregar un nodo al inicio
+* Append ⇒ Agregar un nodo al final
+* Lookup / Search ⇒ Buscar un nodo
+* Insert ⇒ insertar un nodo en la lista
+* Delete ⇒ Borrar un nodo
+
+### Singly Linked List
+
+Tenemos un nodo, Se compone de dos factores
+* Valor
+* Valor del Next
+
+* Si deseamos llegar a algún lugar, debemos empezar del Head hasta el lugar especificado
+* No podemos regresar una vez hemos avanzado en un lugar, sera necesario volver a hacer otro recorrido
+* Lo característico de esta lista es que sus valores están relacionados con su nodo actual y el siguiente
+
+Un singly linked list es aquella que en sus nodos están su valor actual y la relación con el siguiente, si deseamos acceder a un determinado valor debemos recorrer si o si todos los elementos anteriores para llegar al lugar deseado.
