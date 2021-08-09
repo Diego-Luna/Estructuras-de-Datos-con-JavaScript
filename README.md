@@ -217,3 +217,37 @@ Tenemos diferentes métodos para trabajar con el primer elemento, es decir el qu
 * Enqueue ⇒ Agregar un elemento al final de la línea
 * Dequeue ⇒ Remover el primer elemento de la línea
 * Peek ⇒ Tomar el primer elemento de la línea
+
+## 🌲 Trees
+
+Un árbol es una estructura (posiblemente no lineal) de datos compuesta de nodos, vértices y aristas que es acíclica. Un árbol que no tiene ningún nodo se llama árbol vacío o nulo. Un árbol que no está vacío consta de un nodo raíz y potencialmente muchos niveles de nodos adicionales que forman una jerarquía.
+
+* En un tree tenemos un nodo principal de donde se ira ramificando
+* Tenemos parents ⇒ tienen ramas
+* Tenemos hojas o nodos finales
+
+### Binary Tree
+
+* Tiene un nodo principal el cual tendrá N ramas, las siguientes ramas que salen de estas serán el doble o 2N
+* Estos árboles se llaman arboles balanceados porque tienen una misma cantidad a la derecha e izquierda
+* Existen diferentes clases de arboles
+
+### Binary Search Tree
+
+* Nos ayuda para buscar información
+* La forma en la que se acomodan los datos son la siguiente
+
+* Una de las reglas es que los números que van de aumento van en el derecho y decremento en el lado izquierdo
+* Nos ayuda a buscar entre grandes cantidades de datos que podemos llegar a tener con la técnica “divide y vencerás”
+
+### Binary Search Trees: unbalanced tree
+* Existen árboles que no están balanceados, para ello existen ciertos algoritmos que nos ayudan a balancearlos
+
+----
+
+Los métodos que contienen esta estructura de datos son los siguientes:
+* Search ⇒ Buscar por un nodo
+* Insert ⇒ Insertar un nodo
+* Delete ⇒ Borrar un nodo
+
+Un arbol es una estructura de datos la cual nos ayuda a organizar de una manera eficiente grandes cantidades de datos, es una estructura la cual tiene hijos los cuales pueden contener otros hijos, además que se pueden ordenar de una manera determinada.
