@@ -251,3 +251,44 @@ Los métodos que contienen esta estructura de datos son los siguientes:
 * Delete ⇒ Borrar un nodo
 
 Un arbol es una estructura de datos la cual nos ayuda a organizar de una manera eficiente grandes cantidades de datos, es una estructura la cual tiene hijos los cuales pueden contener otros hijos, además que se pueden ordenar de una manera determinada.
+
+
+## 🌐 Grafos
+
+Edge es lo que conecta es decir el pointer
+
+Grafo es un conjunto de objetos llamados vértices o nodos unidos por enlaces llamados aristas o arcos, que permiten representar relaciones binarias entre elementos de un conjunto.
+
+* Los grafos pueden llegar a ser una combinación de otras estructuras de datos vistas anteriormente, para tener una conexión entre los nodos
+* Los grafos son simplemente nodos interconectados, existen diferentes formas de conectarlos entre si
+* Esta estructura de datos está compuesta por
+  * Nodos [vértice]
+  * Edge [Borde]
+
+Existen diferentes grafos
+
+### Grafos dirigidos y no dirigidos
+
+* En los dirigidos un nodo nos lleva a otro nodo
+* En los no dirigidos un nodo nos lleva a otro nodo, pero también en viceversa.
+
+Ejemplos:
+* Facebook ⇒ un amigo está conectado con otro, es decir que ambos tendrán la información del otro
+* Twitter ⇒ un seguidor solo puede obtener la información del otro sin la necesidad que el otro lo siga
+
+### Grafos ponderados y no ponderados
+
+* Ponderados ⇒ Hay un peso, un digito o valor en el vértice
+* No ponderados ⇒ No tienen un valor en los vertices
+
+Ejemplo
+Se necesita hacer vuelos entre diferentes aeropuertos, pero deben salir lo más económico posible entonces lo que se debe hacer es buscar la ruta más optima posible para ahorrar gasolina, cada nodo se volvería un aeropuerto y cada vértice tendría el costo de un aeropuerto a otro
+
+### Grafos cíclicos y acíclicos
+
+* Cíclico ⇒ Es un grafo en el cual puedo recorrer un nodo y luego volver a ese nodo
+* Acíclico ⇒ No puedo regresar a un punto en específico una vez recorrido el grafo
+
+
+RESUMEN: Un grafo es una estructura de datos las cuales están compuestas de nodos conectados entre sí, estas conexiones pueden ser de una o dos direcciones, sus conexiones pueden llevar valores o no y también pueden ser cíclicos como también no.
+
